@@ -1,0 +1,38 @@
+conModel.py:45: UserWarning: The semantics of the Keras 2 argument `steps_per_epoch` is not the same as the Keras 1 argument `samples_per_epoch`. `steps_per_epoch` is the number of batches to draw from the generator at each epoch. Basically steps_per_epoch = samples_per_epoch/batch_size. Similarly `nb_val_samples`->`validation_steps` and `val_samples`->`steps` arguments have changed. Update your method calls accordingly.
+  nb_val_samples=df_valid.shape[0],
+conModel.py:45: UserWarning: Update your `fit_generator` call to the Keras 2 API: `fit_generator(<generator..., steps_per_epoch=16844, validation_steps=4212, epochs=17, callbacks=[<weights_..., validation_data=<generator...)`
+  nb_val_samples=df_valid.shape[0],
+Epoch 1/17
+16844/16844 [==============================] - 15730s 934ms/step - loss: 4.7095e-04 - val_loss: 0.0011
+Epoch 2/17
+16844/16844 [==============================] - 15684s 931ms/step - loss: 4.3371e-04 - val_loss: 6.4580e-04
+Epoch 3/17
+16844/16844 [==============================] - 15690s 931ms/step - loss: 4.0482e-04 - val_loss: 4.3300e-04
+Epoch 4/17
+16844/16844 [==============================] - 15681s 931ms/step - loss: 3.7939e-04 - val_loss: 0.0010
+Epoch 5/17
+16844/16844 [==============================] - 15683s 931ms/step - loss: 3.5756e-04 - val_loss: 3.8844e-04
+Epoch 6/17
+16844/16844 [==============================] - 15676s 931ms/step - loss: 3.3845e-04 - val_loss: 4.6863e-04
+Epoch 7/17
+16844/16844 [==============================] - 15669s 930ms/step - loss: 3.2018e-04 - val_loss: 0.0011
+Epoch 8/17
+16844/16844 [==============================] - 15675s 931ms/step - loss: 3.0474e-04 - val_loss: 9.6342e-04
+Epoch 9/17
+16844/16844 [==============================] - 15646s 929ms/step - loss: 2.9092e-04 - val_loss: 5.4517e-04
+Epoch 10/17
+16844/16844 [==============================] - 15651s 929ms/step - loss: 2.7797e-04 - val_loss: 6.6472e-04
+Epoch 11/17
+16844/16844 [==============================] - 15666s 930ms/step - loss: 2.6675e-04 - val_loss: 5.8145e-04
+Epoch 12/17
+16844/16844 [==============================] - 15659s 930ms/step - loss: 2.5474e-04 - val_loss: 9.4956e-04
+Epoch 13/17
+16844/16844 [==============================] - 15661s 930ms/step - loss: 2.4497e-04 - val_loss: 0.0010
+Epoch 14/17
+16844/16844 [==============================] - 15682s 931ms/step - loss: 2.3628e-04 - val_loss: 6.1216e-04
+Epoch 15/17
+16844/16844 [==============================] - 15667s 930ms/step - loss: 2.2711e-04 - val_loss: 6.8386e-04
+Epoch 16/17
+16844/16844 [==============================] - 15674s 931ms/step - loss: 2.2078e-04 - val_loss: 3.9265e-04
+Epoch 17/17
+16844/16844 [==============================] - 15661s 930ms/step - loss: 2.1338e-04 - val_loss: 6.1842e-04
