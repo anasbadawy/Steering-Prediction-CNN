@@ -17,7 +17,7 @@ This CNN model consists of three convolutional layers and two fully connected la
 
 - For creating a convolutional neural network models that is able to predict steering angles of autonomous vehicles using Udacity simulator, a dataset of frames that have variety of roads and lighting is extracted along with the steering value of each frame. 
 
--These images is obtained by Udacity simulator and they are 21000 of images and labeled by their steering values. 
+- These images is obtained by Udacity simulator and they are 21000 of images and labeled by their steering values. 
 
 - They were approximately 1 hour worth of driving data by driving the car in the center of the road. The steering angles are in degrees. So it has been normalized in the [-1,1] range. Because of the dataset was unbalanced because most of it has degrees between [-5,5] which is the format of Udacity simulator. 
 
