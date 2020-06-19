@@ -1,5 +1,3 @@
-# Steering Prediction CNN
-
 ## Project Description:
 Steering prediction (behavioral cloning) project on Udacity simulator. We trained a CNN model to predict steering angles of frames pixels from a single on-board camera. Udacity had been released a self driving car simulator that could be used for collecting a dataset that consists of frames of on-board camera and their steering angles, speed and throttle. Using this collected dataset, we trained a CNN model by mapping frames pix- els from a single on-board camera to predict their steering angles. This CNN model architecture consists of three convolutional layers with three fully connected layers that inspired from NVIDIA’s CNN architecture. Using small CNN network architecture minimized the processing time and computational cost.
 
