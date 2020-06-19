@@ -8,5 +8,5 @@ Steering prediction (behavioral cloning) project on Udacity simulator. We traine
 This CNN model consists of three convolutional layers and two fully connected layers the input layer is a raw RGB image and the output layer is the prediction steering angle of the input image. The first convolutional layer uses a 9×9 kernel and a 4×4 stride and the other two convolutional layers use a 5×5 kernel and a 2×2 stride, which is mainly for steering angle prediction.
 
 <p align="center">
- <img width="1200px" height="550px" src="https://github.com/anasbadawy/Steering-Prediction-CNN/blob/master/model%20diagram/last.png">
+ <img width="1500px" height="600px" src="https://github.com/anasbadawy/Steering-Prediction-CNN/blob/master/model%20diagram/last.png">
 </p>
