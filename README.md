@@ -39,3 +39,9 @@ This CNN model consists of three convolutional layers and two fully connected la
 <p align="center">
  <img  src="https://github.com/anasbadawy/Steering-Prediction-CNN/blob/master/model%20diagram/table.png">
 </p>
+
+
+##  Testing
+<p align="center">
+ <img  src="https://github.com/anasbadawy/Steering-Prediction-CNN/blob/master/videoTest.gif">
+</p>
