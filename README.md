@@ -44,8 +44,12 @@ This CNN model consists of three convolutional layers and two fully connected la
 ##  Testing
 - Testing CNN models have been done using Udacity simulator track 1 that is running over Unity.
 - Testing is done multiple timees to reach best model that is not agressive as well.
-- Complete Video link.
+- Complete Video link. https://youtu.be/-bqCb7GNgUQ.
 
 <p align="center">
  <img  src="https://github.com/anasbadawy/Steering-Prediction-CNN/blob/master/videoTest.gif">
 </p>
+
+### References
+- Nvidia CNN "End to End Learning for Self-Driving Cars" https://arxiv.org/pdf/1604.07316.pdf
+
