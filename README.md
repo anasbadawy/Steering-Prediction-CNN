@@ -42,6 +42,8 @@ This CNN model consists of three convolutional layers and two fully connected la
 
 
 ##  Testing
+- Testing CNN models have been done using Udacity simulator track 1 that is running over Unity.
 <p align="center">
  <img  src="https://github.com/anasbadawy/Steering-Prediction-CNN/blob/master/videoTest.gif">
 </p>
+- Complete Video link 
