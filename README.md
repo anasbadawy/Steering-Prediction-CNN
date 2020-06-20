@@ -28,4 +28,14 @@ This CNN model consists of three convolutional layers and two fully connected la
 - For increasing data, we applied data augmentation technique by creating more images from existed ones by randomly adding vertical shadow over images to be similar to shadows on real roads.
 
 
-##  Dataset Creation
+##  Experiments
+
+- For training CNN model, we used Adam optimizer with learning rate of 1e-04 as an opti- mization function and and MSE (mean square error) as a loss function. Moreover, we preprocess our data by cropping top and bottom of each frame, resizing it to be 32x128 which is the shape that our model expects and also scaling pixels values to [0,1].
+
+- After preprocessing data, we trained our model using the 21000 samples dataset without using balancing data technique by applying 1000 bins and a maximum of 300 frames for each bin and also we trained it using balancing data technique which has been mentioned before. We trained both of them 20 epochs. The MSE of them has been as shown below.
+
+- Experiment emphasizes that balancing data technique was better for cleaning data and let CNN model performance to be more accurate and efficient for predicting steering angles of the given inputs.
+
+<p align="center">
+ <img  src="https://github.com/anasbadawy/Steering-Prediction-CNN/blob/master/model%20diagram/table.png">
+</p>
